@@ -1,3 +1,24 @@
 {
-    "nuxt.isNuxtApp": false
+    "nuxt.isNuxtApp": false,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        ".history/": true,
+        ".vs/": true,
+        ".vscode/": true,
+        "nuxt.config.ts": true,
+        ".gitignore": true,
+        "package.json": true,
+        "package-lock.json": true,
+        "tsconfig.json": true,
+        "tailwind.config.js": true,
+        "node_modules": true,
+        "README.md": true,
+        ".nuxt": true
+    },
+    "explorerExclude.backup": {}
 }
