@@ -4,4 +4,7 @@ const route = useRoute()
 
 <template>
     <NuxtPage />
+
+
+
 </template>
